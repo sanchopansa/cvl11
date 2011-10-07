@@ -91,6 +91,18 @@ void imageHandler(const lcm_recv_buf_t* rbuf, const char* channel,
 	cv::Mat img;
 	if (client->readMonoImage(msg, img))
 	{
+
+
+		//////////////////////////////////////
+
+		// APPLY ONE OF THE OPENCV FUNCTIONS HERE, AND OUTPUT IMAGE HERE
+
+		//////////////////////////////////////
+
+
+
+
+
 		struct timeval tv;
 		gettimeofday(&tv, NULL);
 		uint64_t currTime = ((uint64_t)tv.tv_sec) * 1000000 + tv.tv_usec;
