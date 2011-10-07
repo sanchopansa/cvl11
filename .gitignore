@@ -1,0 +1,10 @@
+build
+debug
+release
+relwithdebinfo
+eclipsebuild*
+debug-eclipse
+release-eclipse*
+codeblocks*
+*~
+Ogre.log
