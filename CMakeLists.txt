@@ -10,7 +10,7 @@ IF(${CMAKE_CURRENT_SOURCE_DIR} STREQUAL ${CMAKE_CURRENT_BINARY_DIR})
 ENDIF()
 
 
-PROJECT(Pixhawk C CXX)
+PROJECT(CVL11 C CXX)
 
 # If this is set to true, CMake shows the compiler and linker commands
 #SET(CMAKE_VERBOSE_MAKEFILE true)
